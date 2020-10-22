@@ -34,7 +34,7 @@ class MultidimensionalArrayCrossGroup():
 if __name__ == '__main__':
 
     multi_dimensional_array_cross_group = MultidimensionalArrayCrossGroup()
-    test = [['a', 'b'], [1, 2, 3], ['hello', 'world']]
+    test = [['张三', '李四'], ['打', '拿', '亲'], ['鱼', '猫', '美女']]
     for i in multi_dimensional_array_cross_group.calculation(test):
         print(i)
 
