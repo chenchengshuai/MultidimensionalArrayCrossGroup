@@ -30,12 +30,10 @@ class MultidimensionalArrayCrossGroup():
 
 
 
-multi_dimensional_array_cross_group = MultidimensionalArrayCrossGroup()
-
-
 
 if __name__ == '__main__':
 
+    multi_dimensional_array_cross_group = MultidimensionalArrayCrossGroup()
     test = [['a', 'b'], [1, 2, 3], ['hello', 'world']]
     for i in multi_dimensional_array_cross_group.calculation(test):
         print(i)
